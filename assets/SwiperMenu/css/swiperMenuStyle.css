@@ -1,0 +1,107 @@
+.sidenav {
+  width: 200px;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  bottom: 0;
+  left: -200px;
+  /*background-color: #3A3A3F;*/
+  background-color: white;
+  overflow-x: hidden;
+  overflow-y: auto;
+  transition: transform 200ms linear;
+  transform: none;
+  will-change: transform;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  /*border-right: 3px solid #F48422;*/
+}
+
+.sidenav .closebtn {
+  text-decoration: none;
+  display: block;
+  position: absolute;
+  padding: 0px;
+  margin-right: -2vw;
+  margin-top: 14px;
+  top: 0px;
+  right: 35px;
+  font-size: 30px;
+  color: red;
+}
+
+.sidenav .menuIcons {
+  margin-right: 5%;
+  padding: 0px;
+  color: #F48422;
+}
+
+.sidenav .nav-link {
+  text-decoration: none;
+  display: block;
+  padding: 7px 0px 7px 25px;
+  margin-top: 14px;
+  font-size: 14px;
+  color: black;
+}
+
+.sidenav a:hover {
+  color: gray;
+}
+
+#swipablePad {
+  height: 100vh;
+  width: 200vw;
+  position: fixed;
+  z-index: 8;
+  top: 0;
+  left: -195vw;
+  background-color: black;
+  opacity: 0;
+  transform: none;
+  transition: opacity 0.2s;
+  will-change: transform, opacity;
+}
+
+.socialMediaIcons {
+  position: fixed;
+  bottom: 5vh;
+  width: 100%;
+  padding: 3vw;
+}
+
+a.socialMedia {
+  padding: 2vw;
+  font-size: 3vw;
+  width: 5vw;
+  text-align: center;
+  text-decoration: none;
+  margin: 0 0.8vw;
+  color: white;
+  display: inline;
+  border-radius: 2vw;
+}
+
+.socialMediaIcons .fa-facebook {
+  background: #3B5998;
+}
+
+.socialMediaIcons .fa-twitter {
+  background: #55ACEE;
+}
+
+.socialMediaIcons .fa-linkedin {
+  background: #007bb5;
+}
+
+.socialMediaIcons .fa-youtube {
+  background: #bb0000;
+}
+
+.socialMediaIcons .fa-instagram {
+  background: #125688;
+}
+
+.socialMediaIcons .fa-reddit {
+  background: #ff5700;
+}/*# sourceMappingURL=swiperMenuStyle.css.map */
